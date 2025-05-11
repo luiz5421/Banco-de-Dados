@@ -1,0 +1,4 @@
+1)select sg_turma from turma;
+select a.nm_aluno from lista_turma lt join aluno a on (lt.nm_cpf_aluno=a.nm_cpf_aluno) where sg_turma='1BX';
+
+2)select p.nm_professor from grade g join professor p on(g.nm_cpf_professor=p.nm_cpf_professor) where sg_turma='1BX';

@@ -1,0 +1,10 @@
+﻿1)select a.nm_autor,l.nm_titulo_livro,l.nm_idioma,l.dt_lançamento,e.qt_páginas,e.qt_exemplares_estoque,e.aa_publicação,ed.nm_editora from livro_autor la join autor a on (la.cd_autor=a.cd_autor) join livro l on (la.cd_livro=l.cd_livro) join edição e on (la.cd_livro=e.cd_livro) join editora ed on(e.cd_editora=ed.cd_editora) where l.cd_livro=1;
+
+
+2)delete from livro_autor where cd_livro=1;
+delete from edição where cd_livro=1;
+delete from livro where cd_livro=1;
+
+
+
+3)update autor set nm_autor='Fernando Campos',nm_pseudônimo='F Campos',aa_nascimento='1970',nm_país_origem='Portugual',ds_biográfica='Nasceu em Portugual, e veio para o Brasil e conheceu alguns autores' where cd_autor=1;

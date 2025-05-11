@@ -1,0 +1,8 @@
+1)insert into cliente values('673.462.720-99','Luiz Fernando','33.280.042-8','Rua Afonso Pena 32');
+
+2)select nm_venda from tipo_venda;
+select nm_cpf_cliente from cliente;
+select cd_matricula from vendedor;
+select nm_produto from produto;
+
+insert into venda values(3,'814.817.028-23',1,'2021-12-10','13:00','390.00',45,1);

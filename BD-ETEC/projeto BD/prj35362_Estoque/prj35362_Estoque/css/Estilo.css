@@ -1,0 +1,46 @@
+﻿body { padding:0px; margin:0px;}
+main{ width:800px; margin:auto; margin-top:20px;height:500px;}
+h1{ text-align:center; text-transform:uppercase;color: #fff;background-color: Gray;padding: 12px;border-radius: 5px;margin: 9px;}
+h2{ text-align:center; text-transform:uppercase;color: #fff;background-color: Gray;padding: 12px;border-radius: 5px;margin: 9px; margin-top:4px;}
+table{ width:100%; background-color:black; border-radius:4px; height:auto;}
+table th{ background-color: Gray; color:#fff; border: thin solid Gray; padding:5px;}
+table td{background-color:#fff;padding:5px;}
+
+.info{ text-align:center;}
+#btninseri,#btndeletar,#bntatualizar,#bntinseriestoque{ margin-left:25px; cursor:pointer;padding:5px; box-sizing: borde-box; margin:9px 0
+}
+.dd{width:500px; text-align:center; margin-top:10px;height:200px;}
+.oo{width:500px;height:500px;}
+
+.button{ text-align:center; margin-bottom:5px;}
+
+.borda{border: thin solid Gray; border-width:2px;}
+
+@media only screen and (max-width:500px){ 
+main{ width:400px; margin:auto; margin-top:20px;height:500px;}
+body { width:100%;}
+h1{ height:20px; width:auto;}
+
+} 
+
+@media only screen and (min-width: 501px) and (max-width: 1023px)
+{
+main{ width:850px; margin:auto; margin-top:30px;height:600px; font-size: 25px;}
+body { width:100%;}
+h1{ height:auto; width:auto;}
+#btninseri,#bntatualizar{ margin-left:35px; margin-right:20px; cursor:pointer;padding:5px; width:36%; box-sizing: borde-box; margin:9px; font-size:30px;}
+.button{ text-align: left; margin-bottom:25px; margin-left:50px;}
+#bntinseriestoque,#btndeletar{margin-left:25px; width:54%; cursor:pointer;padding:5px; box-sizing: borde-box; margin:9px; font-size:30px;}
+table{ background-color:black; border-radius:4px; font-size:37px;}
+
+#lblnomep,#lbldsp,#lbltipop,#Label1,#lblqt,#lblvlu{ font-size:45px; margin-top:20px;}
+#DP1,#DPlist,#DropDownList1,#DPlistp{font-size:40px; height:100px; width:250px;}
+.button2{font-size:40px; margin-left:15px}
+#txtnomep,#txtdsp,#txtqt,#txtvlu,#txtqte,#txtvlue{font-size:40px;}
+
+.h3{height:auto; width:650px; margin-left:-80px; font-size:50px;margin-bottom:40px}
+
+}
+
+
+
